@@ -1,0 +1,25 @@
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <mat-toolbar color="primary" class="navbar">
+  <div>
+    <a mat-button href="">Re-Chat</a>
+  </div>
+  <div>
+    <span><a mat-button routerLink="app-login">Login</a> </span>
+    <span><a mat-button href="">Chat</a></span>
+  </div>
+</mat-toolbar>
+<div>
+  <h1>Barra Progressi sito in generale:</h1>
+  <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
+  <br>
+  <h1>Barra Progressi Chat</h1>
+  <mat-progress-bar mode="determinate" value="30"></mat-progress-bar>
+</div>
+<router-outlet></router-outlet>
+
+</body>
