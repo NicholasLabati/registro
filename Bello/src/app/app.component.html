@@ -5,20 +5,18 @@
 
 <body>
   <mat-toolbar color="primary" class="navbar">
-  <div>
+  <div class="titolo" style="transform: scale(2);">
     <a mat-button href="">Re-Chat</a>
   </div>
-  <div>
+  <div class="componenti">
     <span><a mat-button routerLink="app-login">Login</a> </span>
-    <span><a mat-button href="">Chat</a></span>
+    <span><a mat-button routerLink="app-chat">Chat</a></span>
   </div>
 </mat-toolbar>
 <div>
   <h1>Barra Progressi sito in generale:</h1>
   <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
-  <br>
-  <h1>Barra Progressi Chat</h1>
-  <mat-progress-bar mode="determinate" value="30"></mat-progress-bar>
+
 </div>
 <router-outlet></router-outlet>
 

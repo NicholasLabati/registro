@@ -1,13 +1,25 @@
+
 .navbar{
   justify-content: space-between;
+  height: 200px;
+}
+
+
+.titolo {
+  margin-bottom: 100px;
+  left:30px;
+}
+
+.componenti {
+  margin-top: 150px;
+
 }
 
 span {
-  padding-right: 1rem;
+  position: relative;
 }
 
 div {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  position: relative;
   font-family: 'Nunito', sans-serif;
 }
