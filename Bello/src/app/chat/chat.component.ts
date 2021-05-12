@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chat.component.css']
 })
 export class ChatComponent implements OnInit {
-
+  selected= "none"
   constructor() { }
 
   ngOnInit(): void {

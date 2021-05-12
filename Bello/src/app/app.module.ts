@@ -20,6 +20,11 @@ import { MatListModule } from '@angular/material/list';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatSelectModule } from '@angular/material/select';
+import { StanzaComponent } from './stanza/stanza.component';
+
+
 
 
 @NgModule({
@@ -27,7 +32,8 @@ import { MatInputModule } from '@angular/material/input';
     AppComponent,
     LoginComponent,
     ChatComponent,
-    HomeComponent
+    HomeComponent,
+    StanzaComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +51,9 @@ import { MatInputModule } from '@angular/material/input';
     MatListModule,
     MatTabsModule,
     MatCardModule,
-    MatInputModule
+    MatInputModule,
+    MatGridListModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
