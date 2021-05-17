@@ -4,13 +4,16 @@
 </head>
 
 <body>
-    <mat-grid-list cols="16">
-  <mat-grid-tile
-      *ngFor="let tile of tiles"
-      [colspan]="tile.cols"
-      [rowspan]="tile.rows"
-      [style.background]="tile.color">
-    {{tile.text}}
-  </mat-grid-tile>
-</mat-grid-list>
+  <mat-grid-list cols="16">
+    <mat-grid-tile [colspan]="16" [rowspan]="1">
+      <h1>Stanza Della Chat</h1>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="16" [rowspan]="6">
+      <h1>Contenuto della chat</h1>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="16" [rowspan]="1">
+      <input type="text" style="height:30px;width:700px;">
+      <button style="height:36px;width:70px;">Invia</button>
+    </mat-grid-tile>
+  </mat-grid-list>
 </body>

@@ -7,10 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StanzaComponent implements OnInit {
   tiles: Tile[] = [
-    {text: 'One', cols: 8, rows: 1, color: 'lightblue'},
-    {text: 'Two', cols: 8, rows: 1, color: 'lightgreen'},
-    {text: 'Three', cols: 8, rows: 6, color: 'lightpink'},
-    {text: 'Four', cols: 8, rows: 6, color: '#DDBDF1'},
+    {text: 'One', cols: 16, rows: 1, color: 'lightblue'},
+    {text: 'Three', cols: 16, rows: 6, color: 'lightpink'},
     {text: 'Footer', cols: 16, rows: 1, color: 'white'}
   ];
   constructor() { }

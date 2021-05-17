@@ -6,9 +6,21 @@
 
 <body>
   <br>
-  <div>
-    <h1>Barra Progressi sito in generale:</h1>
-      <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
-  </div>
+  <mat-grid-list cols="16">
+    <mat-grid-tile [colspan]="12" [rowspan]="4">
+      <h1>Hai già effettuato il log-in?<br>Se non l'hai ancora fatto, affrettati a farlo<br>e comincia a chattare!</h1>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="4" [rowspan]="4">
+      <h1>Login!</h1>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="4" [rowspan]="4">
+      <h1>Chat!</h1>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="12" [rowspan]="4" style="position:absolute;
+    width:100%;
+    bottom:0px;">
+      <h1>Comincia a chattare con i tuoi professori o i tuoi alunni, <br>per una comunicazione intuitiva via stanze!</h1>
+    </mat-grid-tile>
+  </mat-grid-list>
 
 </body>
